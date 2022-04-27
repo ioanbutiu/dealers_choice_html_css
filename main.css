@@ -1,0 +1,125 @@
+html {
+  padding: 0;
+}
+
+@font-face {
+  font-family: Pitch;
+  src: url(fonts/PitchWeb-Regular.woff2);
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  padding: 8px 16px;
+}
+
+p {
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 500;
+  margin: 0;
+}
+
+blockquote {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 500;
+  font-style: italic;
+  padding-left: 48px;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  width: 20%;
+  padding-right: 32px;
+  box-sizing: border-box;
+}
+
+.para-marker {
+  font-family: Pitch;
+  color: rgb(147, 147, 147);
+  font-size: 14px;
+  position: absolute;
+  left: 20%;
+  padding-top: 4px;
+  font-style: normal;
+}
+
+#content {
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: flex-start; */
+  /* position: relative; */
+}
+
+#article-title-container {
+  /* position: absolute; */
+}
+
+#article-title {
+}
+
+#article-body {
+  margin-top: calc(96px + 18px);
+  padding: 0;
+  /* position: relative; */
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+}
+
+#article-body p,
+blockquote {
+  width: 35%;
+  margin: auto auto 32px auto;
+}
+
+.footnote {
+  display: inline-block;
+  font-family: Pitch;
+  font-style: normal;
+  color: rgb(147, 147, 147);
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  padding-left: 32px;
+  width: 20%;
+  box-sizing: border-box;
+}
+
+#article-body img {
+  margin: 0 0 32px 20%;
+  width: 60%;
+}
+
+.logo {
+  margin-bottom: 96px;
+}
+
+sup {
+  color: red;
+  font-family: Pitch;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.footnote-marker {
+  color: red;
+}
+
+#quote-attribution {
+  padding: 0 0 0 48px;
+  box-sizing: border-box;
+}
+
+#footnote-eleven {
+  margin-top: 280px;
+}
+
+#footnote-twelve {
+  margin-top: 96px;
+}
